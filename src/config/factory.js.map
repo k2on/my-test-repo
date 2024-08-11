@@ -1,0 +1,1 @@
+{"version":3,"file":"factory.ts","sources":["/vercel/path0/apps/client/dist/server/example-dir/src/config/factory.ts"],"names":[],"mappings":";;;AAEO,MAAM,YAAY,GAAG,CAAwB,MAAS,EAAE,EAAE,CAAC,MAAM,CAAC;AAA5D,QAAA,YAAY,gBAAgD","sourcesContent":["import { TAuthConfig } from \"./types\";\n\nexport const createConfig = <T extends TAuthConfig>(config: T) => config;\n"]}
