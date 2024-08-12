@@ -1,4 +1,16 @@
 {
     "name": "@repo/auth",
-    "private": true
+    "version": "1.0.0",
+    "private": true,
+    "type": "module",
+    "exports": {
+        ".": "./src/index.ts"
+    },
+    "dependencies": {
+        "@koons/auth": "1.0.0"
+    },
+    "devDependencies": {
+        "typescript": "^5.4.5",
+        "@repo/typescript-config": "*"
+    }
 }
