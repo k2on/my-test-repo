@@ -1,0 +1,1 @@
+got config: {"providers":["github"]}
